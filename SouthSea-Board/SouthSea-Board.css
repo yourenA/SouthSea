@@ -1,0 +1,68 @@
+
+/*中间*/
+.center{
+    width: 980px;
+    height: 956px;
+   // background: slategrey;
+    margin: 0px auto;
+    position: relative;
+}
+.center-content{
+    margin-top: 5px;
+    width: 466px;
+    height: 450px;
+    //background: skyblue;
+    padding: 10px;
+    background: #777 ;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.center-content-caption{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+
+}
+.center-content-pic{
+    width: 180px;
+    height: 165px;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.center-content-pic img{
+    width: 100%;
+    height: 100%;
+}
+.center-content-li ul li{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.center-content-p{
+    padding: 10px;
+}
+.center-content-p p{
+    text-indent: 2em;
+    line-height: 1.6;
+}
+.cir{
+    width: 150px;
+    height: 150px;
+    background: #777;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+}
+
+/*末尾*/
