@@ -1,0 +1,205 @@
+﻿
+/*中间内容样式*/
+.body{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.body-top{
+    width: 100%;
+    height: 370px;
+    margin: 10px auto;
+}
+.body-top-pic{
+    width: 450px;
+    height: 345px;
+    background: palevioletred;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+}
+.body-top-pic ul{
+    position: relative;
+    list-style: none;
+    width: 500%;
+    height: 100%;
+    overflow: hidden;
+}
+.body-top-pic ul li{
+    width: 450px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.body-top-pic ul li img{
+    width: 100%;
+    height: 100%;
+}
+.body-top-pic-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.turn-left{
+    position: absolute;
+    background: url("images/left.png") center ;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 45%;
+    z-index: 9999;
+    cursor: pointer;
+}
+.turn-right{
+    position: absolute;
+    background: url("images/right.png") center;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    top: 45%;
+    z-index: 9999;
+    cursor: pointer;
+}
+.body-top-news{
+    width: 450px;
+    //background: darkseagreen;
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.body-top-news-content{
+    //background: lightslategrey;
+    border: 1px solid black;
+    margin-top: 6px;
+    width: 100%;
+    height: 338px;
+}
+.body-top-news-content-title{
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    background: white;
+    font-size: 32px;
+}
+.body-top-news-content ul{
+    padding: 13px;
+    list-style: none;
+    margin-top: 13px;
+
+}
+.body-top-news-content ul li{
+    font-size: 18px;
+    margin-top: 13px;
+    width: 100%;
+    //background: yellowgreen;
+}
+.body-top-news-content ul li a:hover,.body-top-news-content ul li a:hover+span{
+    color: deepskyblue;
+}
+.body-top-news-content ul li span{
+    float: right;
+}
+
+.body-title{
+    padding-top: 20px;
+    //background: springgreen;
+    width: 100%;
+    text-align: center;
+}
+.body-title h2{
+    font-size: 28px;
+    color: black;
+    height: 44px;
+    line-height: 44px;
+}
+.body-title h3{
+    font-size: 24px;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+}
+.body-content{
+    margin: 10px auto;
+    width: 900px;
+    color: darkslategray;
+}
+.body-content p{
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.body-pic{
+    margin: 30px auto;
+    width: 980px;
+    height: auto;
+    position: relative;
+}
+.body-pic img{
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    height: 1121px;
+}
+.area-tooltip{
+    position: absolute;
+    z-index: 9999;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: rgb(0,119,187);
+    left: 50%;
+    margin-left: -40px;
+    bottom:100%;
+    text-align: center;
+    color: white;
+    transition: opacity 0.3s,transform 0.3s  ;
+    display: none;
+}
+.area-tooltip:after{
+    display: block;
+    content: "";
+    width: 30px;
+    height: 20px;
+//background-color: red;
+    background: url("images/tooltip1.svg") no-repeat center center;
+    background-size:100% ;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -14px;
+
+}
+.dongsha{
+    left: 608px;
+    top: -18px;
+}
+.xisha{
+    left: 356px;
+    top: 181px;
+}
+.zhongsha{
+    left: 538px;
+    top: 193px;
+}
+.nansha{
+    left: 400px;
+    top: 542px;
+
+}
