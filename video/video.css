@@ -1,0 +1,94 @@
+.video{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.video-left{
+    display: inline-block;
+    width: 220px;
+    height: 900px;
+}
+.video-left img{
+    width: 100%;
+    height: 100%;
+}
+.video-right{
+    display: inline-block;
+    width: 750px;
+    height: 900px;
+    //background: palegreen;
+    overflow: hidden;
+
+}
+.video-right-content{
+    width: 748px;
+    height: auto;
+    //background: lightslategrey;
+    margin-top: 30px;
+    border: 1px solid black;
+    position: relative;
+}
+.video-right-content h2{
+    position: absolute;
+    font-size: 28px;
+    top: -20px;
+    left: 10px;
+    background: white;
+}
+.video-right-content ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.video-right-content ul li{
+    float: left;
+    width: 170px;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    height: 148px;
+    position: relative;
+}
+.video-right-content ul li img{
+    width: 100%;
+    height: 95px;
+}
+.video-right-content ul li a:hover~p{
+    color: deepskyblue;
+}
+.video-right-content ul li .video-title{
+    line-height: 1.6;
+    color: #333;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.video-right-content ul li .video-desc{
+    color: #999;
+    font-size: 12px;
+    line-height: 1.7;
+    padding-left: 5px;
+}
+.play{
+    background: url("images/play.png");
+    -webkit-background-size:100%;
+    background-size:100%;;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -25px;
+    display: none;
+}
+.video-right-content ul li a:hover .play{
+    display: block;
+}
+.see{
+    background: url("images/see.png");
+    -webkit-background-size:100%;
+    background-size:100%;;
+}
