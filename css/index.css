@@ -1,0 +1,329 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(264,220,200);
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+    color-stop(.25, #99cccc), color-stop(.25, transparent),
+    color-stop(.5, transparent), color-stop(.5, #99cccc),
+    color-stop(.75, #99cccc), color-stop(.75, transparent),
+    to(transparent));
+    background-image: -moz-linear-gradient(-45deg, #99cccc 25%, transparent 25%,
+    transparent 50%,#99cccc 50%, rgba(255, 255, 255, .1) 75%,
+    transparent 75%, transparent);
+    background-image: -o-linear-gradient(-45deg, #99cccc 25%, transparent 25%,
+    transparent 50%, #99cccc 50%,#99cccc 75%,
+    transparent 75%, transparent);
+    background-image: linear-gradient(-45deg,#99cccc 25%, transparent 25%,
+    transparent 50%, #99cccc 50%, #99cccc 75%,
+    transparent 75%, transparent);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 980px;
+    height: auto;
+    background: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 7px #555;
+    margin: 40px auto;
+
+}
+/*头部样式*/
+.head{
+    position: relative;
+    width:100%;
+    height: 250px;
+    background:rgb(37,50,61);
+}
+.head-left-top{
+    background: url("../images/ship_PNG5413.png");
+    width: 255px;
+    height: 133px;
+    position: absolute;
+    left: -100px;
+    top: -93px;
+    z-index: 1000;
+}
+.head-top{
+    width: 100%;
+    height: 30px;
+//background: wheat;
+    font-size: 16px;
+
+    border-bottom: 1px solid #ccc;
+}
+.head-top-content{
+    width: 980px;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+}
+.head-top-content-span{
+    position: absolute;
+    right: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+.head-top-content-span a{
+    color: white;
+}
+.head-logo{
+    margin: 0 auto;
+    width: 980px;
+    height: 170px;
+    position: relative;
+}
+.head-logo-pic{
+    padding-top: 20px;
+    width: 980px;
+    height: 150px;
+    background: deepskyblue ;
+}
+.head-logo-logo{
+
+    background:url("../images/logo.png");
+    width: 250px;
+    height: 130px;
+}
+.head-nav{
+
+    width: 100%;
+    height: 50px;
+    background: rgb(0,170,221);
+}
+.head-nav-ul{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.head-nav>ul>li{
+    height: 50px;
+    float: left;
+    list-style: none;
+}
+.head-nav>ul>li.superLogin{
+    float: right;
+}
+
+.head-nav li a{
+    height: 22px;
+    line-height: 22px;
+    padding:14px 14px;
+    display: inline-block;
+    color: cornsilk;
+}
+
+
+.head-nav li a:hover{
+    background: rgb(0,119,187);
+}
+.head-nav>ul>li>ul{
+    display: none;
+    list-style: none;
+
+}
+.head-nav>ul>li>ul>li{
+    position: relative;
+    border-top: 1px solid black ;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(0,170,221);
+    text-align: center;
+    z-index: 9990;
+}
+.head-nav>ul>li:hover ul{
+    display: block;
+}
+/*搜索框*/
+.head-search{
+    background: url("../SouthSea/images/search.png");
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    border-radius: 40px;
+    overflow: hidden;
+    right: 30px;
+    top: 50%;
+    margin-top: -25px;
+}
+.search-input{
+    width: 220px ;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: #888 ;
+margin:0;
+}
+.search-select{
+    width: 65px;
+    height: 40px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color:#888 ;
+}
+.search-select option{
+    background:rgb(26,36,44) ;
+}
+.search-submit{
+    padding: 0;
+    border: none;
+    background: transparent;
+    display: block;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+/*脚部样式*/
+.footer{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background:rgb(37,50,61);
+}
+.footer-content{
+    position: relative;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer-content-logo{
+    background: url("../images/logo.png") no-repeat center;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    display: inline-block;
+
+
+}
+.footer-content-link{
+    display: inline-block;
+    width: 304px;
+    height: 149px;
+    padding: 19px;
+    position: absolute;
+    top: 0;
+    margin-left: 41px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(264,220,200);
+    border-top: 1px solid  rgb(264,220,200);
+
+}
+.footer-content-link h3{
+    color: snow;
+}
+.link-content{
+    margin-top: 20px;
+}
+.link-content a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    color: snow;
+}
+.link-content a:hover{
+    text-decoration: underline;
+}
+.footer-content-message{
+    width: 330px;
+    height: 230px;
+    display: inline-block;
+   // background: yellowgreen;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+}
+.footer-content-message textarea{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.footer-content-message textarea:focus{
+    border-radius: 5px;
+    border: 1px solid  rgb(264,220,200);
+    box-shadow: 0px 0px 2px  rgb(264,220,200);
+}
+.footer-content-message input{
+    text-align: center;
+    margin-top: 5px;
+    background: rgb(264,220,200);
+    border-radius: 5px;
+    padding: 5px;
+    width: 160px;
+    font-size: 18px;
+
+}
+/*返回顶部及返回上一页*/
+.btn-top{
+    border-top: 1px solid black;
+    color: snow;
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom:0px;
+    left: 50%;
+    margin-left:505px;
+    display: none;
+}
+.btn-top img{
+    width: 40px;
+    height: 40px;
+}
+.btn-top span{
+    display: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+.btn-top:hover{
+    background-color:rgb(185,185,185);
+}
+.btn-back{
+    color: snow;
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom: 81px;
+    left: 50%;
+    margin-left:505px;
+}
+.btn-back img{
+    width: 40px;
+    height: 40px;
+}
+.btn-back span{
+    display: block;
+    opacity: 0;
+    width: 40px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.btn-back:hover{
+    background-color:rgb(185,185,185);
+}
+
+
+.table{
+    text-align: center;
+    margin: 0 auto;
+}
+.table td{
+    border: 1px solid black;
+    background: rgb(71,114,182);
+    margin-left: 20px;
+    padding: 10px;
+
+}
