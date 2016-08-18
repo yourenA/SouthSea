@@ -1,0 +1,63 @@
+
+/*中间样式*/
+.center{
+    width: 980px;
+    height: 1280px;
+    //background: lightgrey;
+    margin: 0 auto;
+}
+.center-content{
+    width: 900px;
+    height: 100%;
+    //background: dimgrey;
+    margin: 0 auto;
+    padding: 20px;
+}
+.center-content-article{
+    font-size: 18px;
+    line-height: 1.6;
+    width: 900px;
+    float: left;
+}
+.center-content-article img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+.center-content-article h2{
+    display: inline-block;
+    width: 580px;
+    text-align: center;
+}
+
+.center-content-list{
+    overflow: hidden;
+    width: 900px;
+    height: auto;
+}
+
+.center-content-list ul{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+.center-content-list ul li{
+    float: left;
+    width: 200px;
+    height: 250px;
+    //background: darkseagreen;
+    margin: 10px;
+}
+.center-content-list ul li img{
+    width: 200px;
+    height: 200px;
+    transition: all 1s;
+}
+.center-content-list ul li a:hover img{
+    transform: scale(1.1);
+}
+.center-content-list ul li p{
+    text-align: center;
+}
+
