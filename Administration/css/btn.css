@@ -1,0 +1,50 @@
+/*返回顶部及返回上一页*/
+.btn-top{
+    border-top: 1px solid black;
+    color: snow;
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom: 21px;
+    display: none;
+    right: 0;
+}
+.btn-top img{
+    width: 40px;
+    height: 40px;
+}
+.btn-top span{
+    display: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+.btn-top:hover{
+    background-color:rgb(185,185,185);
+}
+.btn-back{
+    color: snow;
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom: 102px;
+    right: 0;
+}
+.btn-back img{
+    width: 40px;
+    height: 40px;
+}
+.btn-back span{
+    display: block;
+    opacity: 0;
+    width: 40px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.btn-back:hover{
+    background-color:rgb(185,185,185);
+}
+.right{
+    right: 0;
+}
