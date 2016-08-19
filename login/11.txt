@@ -1,0 +1,5 @@
+var reg_c=/^[A-Za-z]+$/;
+else if(!reg_c.test(val)){
+                msg_name.innerHTML='<span class="err"><span class="fa fa-times">ÇëÊäÈëºÏ·¨×Ö·û£¡</span>';
+                Nflag=false;
+            }
