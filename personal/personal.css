@@ -1,0 +1,120 @@
+.personal{
+    width: 780px;
+    height: auto;
+    margin: 10px auto;
+}
+.personal-head {
+    margin-top:20px;
+}
+.personal-head a{
+    display: inline-block;
+    background: skyblue;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.personal-head a:hover{
+    color: peru;
+}
+.personal-head a.active{
+    color: peru;
+}
+.tableDiv{
+    width: 780px;
+    margin: 10px auto;
+    min-height: 400px;
+    overflow: hidden;
+}
+.personal h2{
+    font-size: 30px;
+    color: rgb(71,114,182);
+    padding: 5px;
+    overflow: hidden;
+    width: 768px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eeeeee;
+    border-bottom: 3px solid rgb(71,114,182);
+}
+.tableDiv table{
+    border: 1px solid black;
+    width: 780px;
+    text-align: center;
+}
+.tableDiv table img{
+    width: 100px;
+    height: 100px;
+}
+.tableDiv table  tr:nth-child(1){
+    height: 40px;
+    line-height: 40px;
+}
+.tableDiv table  tr td:last-child{
+    text-align: center;
+}
+.tableDiv table  tr td:nth-child(1){
+    width: 60px;
+}
+.tableDiv table  tr:nth-child(odd) {
+    background-color: #99cccc;
+}
+.tableDiv table  tr:nth-child(even) {
+    background-color:  rgb(264,220,200);
+}
+#news tr td{
+    min-width: 100px;
+    padding: 10px;
+}
+#news tr td:nth-child(1){
+    width: 150px;
+}
+#news a:hover{
+    color: peru;
+}
+
+
+.updateForm{
+    width: 100%;
+    height: auto;
+// background: seagreen;
+}
+.updateForm table{
+
+    margin: 0 auto;
+// background: lightseagreen;
+// background: lightseagreen;
+}
+.updateForm table label{
+    font-size: 18px;
+}
+.updateForm table tr{
+    height: 40px;
+    line-height: 40px;
+}
+.updateForm table tr td{
+    padding: 5px;
+}
+.updateForm table tr td input{
+    width: 160px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.updateForm table tr td textarea{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.updateForm table tr td .btnUpdate{
+    border: 1px solid black;
+    margin-left: 30px;
+    text-shadow: 0 0 0 transparent;
+    width: 100px;
+    height: 30px;
+    background: #99cccc;
+    cursor: pointer;
+}
